@@ -1,0 +1,27 @@
+app:
+  timezone: "Asia/Ho_Chi_Minh"
+
+news_sources:
+  - name: "VnExpress Kinh doanh"
+    type: rss
+    url: "https://vnexpress.net/rss/kinh-doanh.rss"
+  - name: "Thời báo Kinh tế Sài Gòn"
+    type: rss
+    url: "https://www.thesaigontimes.vn/feed/"
+  - name: "Tuổi Trẻ Kinh doanh"
+    type: rss
+    url: "https://tuoitre.vn/rss/kinh-doanh.rss"
+
+screener:
+  min_liquidity_avg_20d: 1000000
+  max_drawdown_60d: 0.25
+  ma_fast: 10
+  ma_slow: 20
+  vol_contraction_window: 20
+  vol_contraction_pct: 0.30
+
+financial_thresholds:
+  min_roe: 0.12
+  min_roc: 0.10
+  min_gpm: 0.15
+  max_de_ratio: 1.5

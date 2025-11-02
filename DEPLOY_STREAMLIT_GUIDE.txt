@@ -1,0 +1,16 @@
+==============================
+DEPLOY TO STREAMLIT CLOUD (ZIP)
+==============================
+
+1) Vào https://share.streamlit.io và đăng nhập (Google).
+2) Chọn "From ZIP" (Upload zip file).
+3) Upload file: economic_news_screener_streamlit.zip
+4) Ở mục Main file, nhập: streamlit_app.py
+5) Nhấn Deploy. Chờ build 2–5 phút.
+
+Sau khi xong, bạn sẽ có link dạng:
+https://<your-app-name>.streamlit.app
+
+GỢI Ý:
+- Nếu cần cập nhật, chỉ cần re-upload file ZIP mới.
+- Dữ liệu lưu tại runtime có thể reset mỗi lần server khởi động lại.
